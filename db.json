@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "name": "ermek 123",
+      "surname": "moldobaev",
+      "contacts": "",
+      "week": "300",
+      "month": "",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

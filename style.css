@@ -1,0 +1,64 @@
+body {
+  background-image: url(https://images.pexels.com/photos/3760323/pexels-photo-3760323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(219, 214, 214);
+}
+
+#modal-edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-edit-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/photos/old-books-on-bookshelves-with-orange-background-picture-id1154728362?k=6&m=1154728362&s=170667a&w=0&h=pU2Bc_UTqkRvTRe8e_GaipPBbuDhvspEPJRrA_ebegY=);
+}
+#modal-edit-inps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name {
+  background-color: yellowgreen;
+  border-radius: 10%;
+}
+#surname {
+  background-color: brown;
+  border-radius: 10%;
+}
+#contacts {
+  background-color: aqua;
+  border-radius: 10%;
+}
+#week {
+  background-color: bisque;
+  border-radius: 10%;
+}
+#month {
+  background-color: blueviolet;
+  border-radius: 10%;
+}

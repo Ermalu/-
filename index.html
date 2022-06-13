@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- from start -->
+
+    <img
+      src="https://www.seekpng.com/png/full/197-1977799_14-march-kpi-icon-kpi-png.png"
+      alt=""
+    />
+    <br />
+    <h1>KPI Студентов</h1>
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" id="surname" placeholder="Surname" />
+    <input type="text" id="contacts" placeholder="Contacts" />
+    <input type="text" id="week" placeholder="Week KPI" />
+    <input type="text" id="month" placeholder="Month KPI" />
+    <button id="create-user">Create</button>
+    <div id="list"></div>
+    <!-- search form start -->
+    <input id="inp-search" type="text" placeholder="Search" />
+    <!-- search form end -->
+
+    <!-- form end -->
+
+    <!-- module start -->
+    <div id="modal-edit">
+      <div id="modal-edit-body">
+        <button id="modal-edit-close">
+          <img
+            style="width: 20px; height: 20px"
+            src="https://www.freeiconspng.com/thumbs/close-icon/close-icon-30.png"
+            alt=""
+          />
+        </button>
+        <div id="modal-edit-inps">
+          <input type="text" id="inp-edit-name" />
+          <input type="text" id="inp-edit-surname" />
+          <input type="text" id="inp-edit-contacts" />
+          <input type="text" id="inp-edit-week" />
+          <input type="text" id="inp-edit-month" />
+          <input type="text" id="inp-edit-id" />
+          <button id="btn-save-edit">Save</button>
+        </div>
+      </div>
+    </div>
+    <!-- module end -->
+
+    <!-- pagination start -->
+    <div id="pagination"></div>
+    <!-- pagination end -->
+    <script src="./main.js"></script>
+  </body>
+</html>
